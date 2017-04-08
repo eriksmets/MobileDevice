@@ -36,7 +36,7 @@ class AFCApplicationDirectory(AFC):
 			kCFPropertyListXMLFormat_v1_0
 		)
 		plist._sendmsg({
-			u'Command': u'VendContainer',
+			u'Command': u'VendDocuments',
 			u'Identifier': identifier
 		})
 		reply = plist._recvmsg()
